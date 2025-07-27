@@ -1,0 +1,86 @@
+.highlight{
+    background-image:url(assets/Object.png);
+    background-size:100% 100%;
+   
+}
+header nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration: none;
+    font-size:15px;
+}
+ 
+.school{
+    margin-top:150px;
+    margin-left:500px;
+    
+}
+.school h1{
+    font-size:150px;
+    font-weight:700;
+    line-height: 100%;
+    letter-spacing: opx;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+.span{
+    margin-left:250px;
+    font-family: sans-serif;
+    font-weight:700;
+    color: white;
+     margin-bottom: 30px;
+    
+}
+ button{
+    margin-left:280px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin-top:38px;
+    background-color:#c271ff;
+    color:white;
+    border-width: inherit;
+    margin-bottom: 70px;
+
+ }
+ .learn h2{
+    margin-top: 200px;
+    margin-bottom:100px;
+    margin-left:670px;
+    font-size: 60px;
+    Letter-spacing:opx;
+     font-family: sans-serif;
+     font-weight: 100;
+     color: white;
+     
+    }
+    .first-word {
+        color: #c271ff;
+        font-weight: bold;
+    }
+    .achievement{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding:100px 100px  200px 0px;
+       
+     }
+    /* .quote{
+        display:flex;
+        padding:100px;
+        align-items:center;
+         background-color:#c271ff;
+    }
+    
+    .img
+    {
+        margin-right: 60px;
+        margin-left: 200px; */
+    }
