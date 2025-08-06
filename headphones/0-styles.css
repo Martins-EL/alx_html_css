@@ -22,12 +22,16 @@
 *{
     font-family:pro; 
 }
-    
+
+body{
+    margin: 0%;
+}
 .highlight{
     background-image:url(assets/headphones_hero_1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:800px;
+    height:1000px;
+
 }
 header{
     display:flex;
@@ -46,13 +50,13 @@ nav a{
     display: flex;
     justify-content: center;
     align-items:end;
-    height: 700px;
+    height: 870px;
 }
 .inner-container{
     display:flex;
     flex-direction: column;
     width:70%;
-    align-items: center;
+    align-items:center;
     
 }
 .paragraph{

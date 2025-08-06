@@ -1,0 +1,56 @@
+@font-face {
+    font-family:pro;
+    src: url(assets/SourceSansPro-ExtraLight.otf);
+}
+*{
+    font-family:pro; 
+}
+body{
+background-image: url(assets/headphones_hero_2.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+}
+.outer-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height:900px;
+    width:100%
+}
+.inner-container{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 500px;
+}
+.paragraph{
+    width:80%
+}
+.paragraph p{
+    text-align: center;
+    color:white;
+    font-family:pro;
+    
+}
+    
+.percentage{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:60px;
+    width:80%;
+
+}
+.pentagon{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lorep{
+    position:absolute;
+    bottom: 20px;
+    left: 40px;
+
+}
