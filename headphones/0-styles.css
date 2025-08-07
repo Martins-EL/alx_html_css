@@ -26,11 +26,12 @@
 body{
     margin: 0%;
 }
+
 .highlight{
     background-image:url(assets/headphones_hero_1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height:1000px;
+    height:953px;
 
 }
 header{
@@ -74,6 +75,7 @@ button{
     border-style:none;
     color:white;
     margin-bottom:50px;
+    font-family:Source-Sans-pro; ; 
     background-color:#FF6565
 }
 button:hover{
