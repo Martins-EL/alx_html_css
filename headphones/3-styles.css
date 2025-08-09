@@ -1,25 +1,211 @@
+/* section 1 */
 @font-face {
-    font-family:Source-Sans-pro;
-    src: url(assets/SourceSansPro-Bold.otf);
+  font-family: Source-Sans-pro;
+  src: url(assets/SourceSansPro-Bold.otf);
 }
-*{
-    font-family:Source-Sans-pro; 
+* {
+  font-family: Source-Sans-pro;
 }
+
 @font-face {
-    font-family:Sans-pro;
-    src: url(assets/SourceSansPro-Regular.otf);
+  font-family: pro;
+  src: url(assets/SourceSansPro-ExtraLight.otf);
 }
-*{
-    font-family:Sans-pro; 
-}
+
 @font-face {
-    font-family:Sans-pro;
-    src: url(assets/SourceSansPro-Regular.otf);
+  font-family: Sans-pro;
+  src: url(assets/SourceSansPro-Regular.otf);
 }
-*{
-    font-family:Sans-pro; 
+
+.highlight {
+  background-image: url(assets/headphones_hero_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 953px;
 }
-.outer-container{
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family: Sans-pro;
+}
+.outer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 870px;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: pro;
+}
+
+button {
+  padding: 15px 25px;
+  border-radius: 22px;
+  border-style: none;
+  color: white;
+  margin-bottom: 50px;
+  font-family: Source-Sans-pro;
+  background-color: #ff6565;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  opacity: 0.9;
+}
+.firstlorep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lorep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lorep h1 {
+  margin-bottom: 1px;
+  font-size: 40px;
+  color: white;
+  font-family: source-Sans-Pro;
+}
+
+.lorep p {
+  margin-top: 2px;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  font-family: Sans-pro;
+}
+
+/* Section2 */
+.outer-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.outer-container1 h1 {
+  margin-top: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.paragraph1 {
+  text-align: center;
+  width: 60%;
+  margin-bottom: 150px;
+  margin-top: 0px;
+}
+.container p {
+  margin-top: 100px;
+}
+
+.sound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hearing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* section 3 */
+
+.outer-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 900px; */
+  width: 100%;
+  background-image: url(assets/headphones_hero_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.outer-container2 h1 {
+  margin-top: 100px;
+  color: white;
+  font-family: Sans-pro;
+}
+.inner-container1 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.paragraph2 {
+  width: 80%;
+}
+.paragraph2 p {
+  text-align: center;
+  color: white;
+  font-family: pro;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  width: 80%;
+  margin-bottom: 50px;
+}
+.pentagon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lorep1 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* SECTION 4 */
+.outer-container3{
     width:100%;
     Height:800px;
     display: flex;
@@ -27,7 +213,7 @@
     align-items: center;
     justify-content:center;
 }
-.inner-container{
+.inner-container2{
     width:40%;
     height:500px;
     display: flex;

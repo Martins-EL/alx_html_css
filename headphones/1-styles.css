@@ -1,16 +1,124 @@
+
+/* section 1 */
+@font-face {
+    font-family:Source-Sans-pro;
+    src: url(assets/SourceSansPro-Bold.otf);
+}
+*{
+    font-family:Source-Sans-pro; 
+}
+
+
+@font-face {
+    font-family:pro;
+    src: url(assets/SourceSansPro-ExtraLight.otf);
+}
+
 @font-face {
     font-family:Sans-pro;
     src: url(assets/SourceSansPro-Regular.otf);
 }
-*{
-    font-family:Sans-pro; 
+
+
+body{
+    margin: 0%;
+}
+
+.highlight{
+    background-image:url(assets/headphones_hero_1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:953px;
+
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    
+nav a{
+    color:white;
+    text-decoration: none;
+    font-family: Sans-pro;
 }
 .outer-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    height: 870px;
+}
+.inner-container{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    align-items:center;
+    
+}
+.paragraph{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    color: white;
+    font-family: pro;
+}
+    
+button{
+    padding:15px 25px;
+    border-radius: 22px;
+    border-style:none;
+    color:white;
+    margin-bottom:50px;
+    font-family:Source-Sans-pro; ; 
+    background-color:#FF6565
+}
+button:hover{
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.9;
+}
+.firstlorep{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.lorep{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+    
+.lorep h1{
+    margin-bottom:1px;
+    font-size:40px;
+    color:white;
+    font-family: source-Sans-Pro;
+    
+}
+
+.lorep p{
+    margin-top:2px;
+    font-size:22px;
+    font-weight:600;
+    color:white;
+    font-family: Sans-pro;
+}
+
+/* Section2 */
+.outer-container1{
     display:flex;
     flex-direction: column;
     align-items: center;
     width:100%;
-    height:700px;
+    margin-bottom: 30px;
+    
 }
   h1{
       margin-top: 200px;
@@ -23,7 +131,7 @@
      width:80%;
 
 }
- .paragraph{
+ .paragraph1{
     text-align:center;
     width:60%;
     margin-bottom:150px;
@@ -32,6 +140,54 @@
 .container p{
     margin-top:100px;
 }
+
+.sound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hearing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
+
+
+
+
+
+
+
+
+    
+    
+   
+
+
     
     
