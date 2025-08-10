@@ -195,12 +195,16 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .pentagon {
   width: 200px;
   height: 200px;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   background-color: #FF6565;
+  
+
+
 }
 
 .lorep1 {
@@ -307,7 +311,8 @@ footer p{
     margin-top:150px;
 }
     
-    
+
+     
     
     
 
